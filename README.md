@@ -2,6 +2,12 @@
 
 This is a web assembly variant of of the Rust "Guessing Game Tutorial". There's no practical use for this codebase, other than to demonstrate some very simple communication between Javascript and a compiled Rust binary.
 
+# How to demo
+
+Very simply, you can just clone and then run your favourite web server tool on `/site/` directory; for example, [Node.js's `http-server`](https://www.npmjs.com/package/http-server). If you're making code alterations you'll need to make sure to install Rust as well as `rustup` and `emscripten`; [details can be found here](https://users.rust-lang.org/t/compiling-to-the-web-with-rust-and-emscripten/7627).
+
+Once you're all set up, you can just run `make` to do the compile and copying of the new js/wasm files into the site directory.
+
 # License
 
 The MIT License (MIT)
