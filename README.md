@@ -4,6 +4,8 @@ This is a web assembly variant of of the Rust "Guessing Game Tutorial". There's 
 
 This is not fully complete yet. But should give you an idea of how best to communicate with WASM.
 
+It also has not been code reviewed by anyone who knows Rust well. Got any suggestions? Feel free to contact me or open an issue.
+
 # How to demo
 
 Very simply, you can just clone and then run your favourite web server tool on `/site/` directory; for example, [Node.js's `http-server`](https://www.npmjs.com/package/http-server). If you're making code alterations you'll need to make sure to install Rust as well as `rustup` and `emscripten`; [details can be found here](https://users.rust-lang.org/t/compiling-to-the-web-with-rust-and-emscripten/7627).
