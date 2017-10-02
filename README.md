@@ -2,7 +2,7 @@
 
 This is a web assembly variant of of the Rust "Guessing Game Tutorial". There's no practical use for this codebase, other than to demonstrate some very simple communication between Javascript and a compiled Rust binary.
 
-This is not fully complete yet. But should give you an idea of how best to communicate with WASM.
+As a tutorial, this is not complete yet, but as an example it is functional. 
 
 It also has not been code reviewed by anyone who knows Rust well. Got any suggestions? Feel free to contact me or open an issue.
 
